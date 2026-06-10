@@ -1,0 +1,145 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.dashboard-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.welcome-section {
+  margin-bottom: 2rem;
+}
+
+.welcome-section h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.department {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.today-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.today-section h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.today-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.time-display {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.time-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.time-item .label {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.time-item .time {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  font-family: 'Courier New', monospace;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.action-buttons .btn-primary {
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+}
+
+.status-message {
+  color: #27ae60;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+  background: #d5f4e6;
+  border-radius: 6px;
+}
+
+.history-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.history-section h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.records-table {
+  overflow-x: auto;
+}
+
+.records-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.records-table th,
+.records-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.records-table th {
+  background: #f8f9fa;
+  color: #2c3e50;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.records-table td {
+  color: #555;
+}
+
+.records-table tr:hover {
+  background: #f8f9fa;
+}
+
+.no-records {
+  text-align: center;
+  color: #999;
+  padding: 2rem;
+  font-style: italic;
+}
